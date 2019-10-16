@@ -1,0 +1,72 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: grey;
+	
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 10px;
+	text-decoration: none;
+}
+li{
+	float: left;
+}
+li a:hover:not(.active){
+	color: black;
+}
+h2{
+	color: red;
+}
+.menu{
+	margin-top: -1%;
+}
+.body{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-decoration: none;
+	margin-top: 1%;
+	overflow: hidden;
+}
+.header{
+		position: sticky;
+		top: 0;
+}
+#content
+{
+	
+	background-color: white;
+	overflow: hidden;
+}
+#image{
+	width: 30% 30%;
+	float: left;
+	
+}
+#recipes{
+	width: 30%;
+	float: left;
+}
+.first{
+	display: inline-block;	
+}
+#p1{
+	width: 30%;
+	float: left;
+}
+footer{
+	background-color: grey;
+	color: white;
+	padding: 10px;
+}
+a:link{
+	/*text-decoration: none;*/
+	color: red;
+}
+a:active{
+	text-decoration: underline;
+}
